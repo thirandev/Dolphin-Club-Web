@@ -1,0 +1,25 @@
+#editor-background{
+    background-color: #b5d2ff;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+#mainContainer {
+    justify-content: center;
+}
+
+#editor-content {
+    margin: 50px;
+    float: left;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+#editorImage {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+ }

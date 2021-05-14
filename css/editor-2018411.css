@@ -1,0 +1,45 @@
+body {
+    background-color: #d5d5d5;
+}
+
+#main-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+#main-grid img {
+    width: 300px
+}
+
+
+.heading {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px 10px;
+
+}
+
+.sub-heading {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 10px;
+}
+
+.sub-heading2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.normal {
+    padding-left: 10px;
+}
+
+#left {
+    border-left: 2px solid black;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #77a7df;
+    font-family: 'Roboto Slab', serif;
+}
+#main-svg {
+    line-height: 1.6;
+}
+
+#main-svg .main-bg-image img {
+    width: 100%;
+}
+.svg-header {
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.svg-header hr {
+    color: #9aacc2;
+}
+
+#svg-main-body {
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+.svg-main-body-item {
+    padding: 10px;
+    margin: 10px;
+}
+.rectangles{
+    fill:white;
+    opacity:0.5;
+    stroke-width: 5;
+    stroke:black;
+}
+#sports{
+    cursor: none;
+    
+}
+text{
+    color: #4e4e4e;
+    font-size: 30px;
+    font-weight: bold;
+} 
+a:hover text{
+    fill: white;
+} 
+a:hover rect{
+    fill:black;
+}
+
+

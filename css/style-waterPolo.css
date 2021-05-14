@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #77a7df;
+    font-family: 'Roboto Slab', serif;
+}
+
+#main-waterPolo {
+    line-height: 1.6;
+
+}
+
+#main-waterPolo .main-bg-image img {
+    width: 100%;
+}
+
+
+.waterPolo-header {
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.waterPolo-header hr {
+    color: #9aacc2;
+}
+
+.waterPolo-body {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#waterPolo-main-body {
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
+.waterPolo-main-body-item {
+    padding: 10px;
+    margin: 10px;
+}
+
+#waterPolo-ourTeam {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+#waterPolo-ourTeam-image{
+    border-radius: 20px;
+}
+
+#waterPolo-ourTeam .waterPolo-header {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+.waterPolo-ourTeam-text {
+    padding: 0 10px 10px 20px;
+}
+
+.waterPolo-body-span{
+    font-size: 20px;
+
+}
+
+#waterPolo-ourTeam-image {
+    grid-row: 2 / span 2;
+    width: 100%;
+}
+
+.wrapper {
+    text-align: center;
+    font-size: 20px;
+}
+
+#waterPolo-practices span{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.all-button, .basics-button, .swimming-button, .landTraining-button, .gym-button, .practiceMatch-button {
+    background-color: #9bb3bf;
+    color: #1a5174;
+    border-radius: 10px;
+}
+
+.practice-active {
+    color: #163d58;
+    background-color: #7c8f9a;
+}
+
+#waterPolo-practices span:hover{
+    color: #163d58;
+    background-color: #7c8f9a;
+}
+.swimming, .basics, .practice-match, .gym, .land-training {
+    opacity: 0;
+    user-select: none;
+}
+.timetable-active {
+    opacity: 1;
+}
+
+#waterPolo-timetable {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #2b90d0;
+}
+
+
+#waterPolo-timetable table{
+    width: 100%;
+    border: 3px solid #9bb3bf;
+    user-select: none;
+}
+
+td {
+    min-width: 100px;
+}
+
+#waterPolo-practiceSchedule {
+    margin-bottom: 40px;
+}

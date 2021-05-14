@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-size: 20px;
+    z-index: 1;
+}
+.navBar .logo {
+    height: 55px;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10%;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.navBar .logo img{
+    height: 100%;
+    background-color: #adadad;
+}
+
+.navBar .nav-links {
+    float: right;
+    margin-right: 15%;
+}
+
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBar a img {
+    padding-right: 10px;
+}
+
+.navBar .dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.navBar .dropdown .drop-button {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navBar a:hover, .navBar .dropdown:hover .drop-button {
+    background-color: #77a7df;
+}
+
+.navBar .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 45px;
+}
+
+.navBar .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.navBar .dropdown-content a img {
+    width: 20px;
+}
+.navBar .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.navBar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+

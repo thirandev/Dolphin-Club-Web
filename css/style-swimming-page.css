@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: #a8dcff;
+}
+
+#main-swimming {
+    line-height: 1.5;
+}
+
+#pool-image{
+    width: 100%;
+    height: 50%;
+}
+
+.strokeHeadings {
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.strokeHeadings hr {
+    color: #212121;
+}
+
+#mainBody {
+    width: 70%;
+    padding-left: 20%;
+    padding-top: 30px;
+}
+
+.swimming-main-body-item {
+    padding: 10px;
+    margin: 10px;
+}
+
+#butterfly {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+#backstroke {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+#breaststroke {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+#freestyle {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.StrokesImage{
+    border-radius: 5px;
+}
+
+.body{
+    font-size: 15px;
+    text-align: justify;
+}
+
+#butterfly .strokeHeadings {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+#backstroke .strokeHeadings {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+#breaststroke .strokeHeadings {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+#freestyle .strokeHeadings {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+.Swimming_text {
+    padding: 15px;
+}
+
+.StrokesImage {
+    grid-row: 2 / span 2;
+    width: 100%;
+}
+

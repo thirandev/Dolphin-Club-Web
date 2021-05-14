@@ -1,0 +1,42 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ */
+
+.presentation-modal-bg{
+    position: fixed;
+    width:100%;
+    height:100vh;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    animation: my_animation 4s;
+}
+
+.presentation-modal{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: "Calibri Light", serif;
+    border: black solid;
+    border-bottom: 5px solid #08a6fa;
+    background-color: rgb(208, 250, 245);
+}
+
+@keyframes my_animation {
+    from { opacity: 0; }
+    50%   { opacity: 1.0; }
+    to { opacity: 0; }
+}
+
+

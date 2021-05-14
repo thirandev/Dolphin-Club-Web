@@ -1,0 +1,43 @@
+.background_image{
+    height: 800px;
+    width: 2150px;
+}
+body{
+    background-color: #77a7df;
+}
+.rowing_container{
+    margin-left: 10%;
+    width: 80%;
+
+}
+.title{
+    padding: 25px;
+    font-size: xx-large;
+}
+.content{
+    padding: 25px;
+    font-size: larger;
+}
+.th{
+    font-size: larger;
+    padding: 25px;
+    border-width: thin;
+    border-style: double;
+    border-radius: 10px;
+    margin: 20px 100px 20px;
+    background-color: steelblue;
+}
+.td{
+    padding: 25px;
+    border-width: thin;
+    border-style: double;
+    border-radius: 10px;
+    margin: 20px 100px 20px;
+    background-color: steelblue;
+}
+.table{
+    margin-left: 50px;
+}
+.title{
+    padding-top: 50px;
+}

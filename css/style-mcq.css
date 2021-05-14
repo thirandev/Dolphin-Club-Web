@@ -1,0 +1,145 @@
+
+body{
+    background-image: url("../img/mcqB.jpg");
+
+}
+.mcq {
+    background-color: #3d8aeb;
+    text-align: left;
+    padding: 20px 20px 100px 60px;
+    border-width: thin;
+    border-style: double;
+    border-radius: 10px;
+    margin: 50px 150px 150px;
+    min-height: 375px;
+}
+#questions{
+    display: none;
+}
+.mcq_question{
+    padding-top: 50px;
+    padding-left: 35px;
+    font-family: Calibri,serif;
+    font-size: xx-large;
+}
+.answers{
+    padding-left: 55px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+.buttons{
+    padding-top: 35px;
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.next_q {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.next_q:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.0);
+    padding: 5px;
+}
+.reset{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.reset:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.0);
+    padding: 5px;
+}
+input{
+    cursor: pointer;
+}
+.select{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer
+}
+.select:hover{
+    background-color: black;
+    color: white;
+}
+.score{
+    float: right;
+    border: 1px;
+    font-size: 20px;
+}
+#A, #B, #C, #D, #ans1, #ans2, #ans3, #ans4{
+    display: inline;
+    margin: 15px;
+    font-size: x-large;
+}
+#thank, #dis_score{
+    text-align: center;
+    margin: 25px;
+    font-size: xx-large;
+    font-family: Arial,serif;
+    font-style: normal;
+}
+
+.start{
+    margin-top: 250px;
+    margin-left: 635px;
+    margin-bottom: 200px;
+    font-family: Calibri,serif;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 20px;
+}
+.startButton{
+
+    min-height: 650px;
+    align-items: center;
+}
+.start:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.0);
+    padding: 25px;
+}
+.retry{
+    margin-top: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.retry:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.0);
+    padding: 5px;
+}
+#retryB{
+    display: none;
+}
+#disMinute{
+    display: inline;
+}
+
+#disSeconds{
+    display: inline;
+}
+#minutes{
+    display: inline;
+}
+#seconds{
+    display: inline;
+}
+
+

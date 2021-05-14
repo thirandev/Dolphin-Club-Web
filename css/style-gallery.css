@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #77a7df;
+    font-family: 'Roboto Slab', serif;
+}
+
+#main-gallery {
+    line-height: 1.6;
+}
+
+#main-gallery .main-bg-image img {
+    width: 100%;
+}
+.gallery-header {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.gallery-body {
+    text-align: justify;
+}
+#gallery-main-body {
+    background-color: lightskyblue;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.gallery-main-body-item {
+    padding: 10px;
+    margin: 10px;
+}
+ .galleryMargin{
+    margin: 0 20vw;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.actions{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas:  
+    "surf kid wb"
+    "surf wp sw";
+}
+#gallery .img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+  #gallery .surf{
+    grid-area: surf;
+    background-image: url("../img/gallery/surfthumb.jpg");
+    height: 610px;
+}
+#gallery .kid{ 
+    grid-area: kid;
+    background-image: url("../img/gallery/kidsthumb.jpg");
+}
+#gallery .wb{
+    grid-area: wb;
+    background-image: url("../img/gallery/wbthumb.jpg");
+}
+#gallery .wp{
+    background-image: url("../img/gallery/wpthumb.jpg");
+    grid-area: wp;
+}
+
+#gallery .sw{
+    grid-area: sw;
+    background-image: url("../img/gallery/swimthumb.jpg");
+}
+.img .imgtitle{
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.img h1{
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 25px;
+}
+.img .imgtitle:hover{
+    opacity: 0.8;
+    transition: all ease-in-out 100ms;
+}
+.container {
+    position: relative;
+    display: none;      
+}
+.container .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.close {
+    position: absolute;
+    font-size: 50px;
+    right: 16px;
+    top: 11px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.close:hover {
+opacity: 1;
+}
+#resizeImage{
+    width: 100%;
+}
