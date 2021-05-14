@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Site Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style-svg.css">
+    <link rel="stylesheet" href="../css/style-footer.css">
+    <link rel="stylesheet" href="../css/style-comments.css">
+    <link rel="stylesheet" href="../css/style-navBar.css">
+</head>
+<body>
+
+
+<div class="navBar">
+    <div class="logo" onclick="document.location = 'index.html';">
+        <img src="../img/dolphin-logo.png" alt="Logo Image">
+    </div>
+    <div class="nav-links">
+        <a href="index.html" style="background-color: #5780ad;">Home</a>
+        <div class="dropdown">
+            <div class="drop-button">Sports
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+                <a href="waterPolo-page.html"><img src="../img/water-polo-logo.png" alt="Water Polo Logo">Water Polo</a>
+                <a href="swimming-page.html"><img src="../img/swimming-logo.png" alt="Swimming Logo">Swimming</a>
+                <a href="rowing.html"><img src="../img/rowing-logo.png" alt="Rowing Logo">Rowing</a>
+                <a href="surfing.html"><img src="../img/surfer-logo.png" alt="Surfing Logo">Surfing</a>
+            </div>
+        </div>
+        <a href="product-page.html">Store</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="about%20page.html">About Us</a>
+    </div>
+</div>
+
+<div id="main-svg">
+    <div class="main-bg-image">
+        <img src="../img/sitemap/main-sitemap.jpg" alt="Site Map Main page prompt Image">
+    </div>
+    <div id="svg-main-body">
+        <div id="svg-about" class="svg-main-body-item">
+            <div class="svg-header">Site Map<hr></div>   
+        </div>  
+    </div>
+    <svg height="550" width="1300">
+       
+        <defs>
+            <filter id="filler" width="200%" height="200%">
+              <feOffset result="offOut" in="SourceGraphic" dx="50" dy="30"  />
+              <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+              <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="9" />
+              <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+            </filter>
+        </defs>
+        <image x=650 y=65 height="500"width="500" xlink:href="../img/dolphin-logo.png"  filter="url(#filler)"/>
+
+        <a href="index.html">
+            <rect x="10%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <rect x="10%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <text x=17% y="25%" style="text-anchor: middle;">
+                HOME
+            </text>
+        </a>
+        <a id="sports">
+            <rect x="25%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <rect x="25%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <text x="32%" y="25%" style="text-anchor: middle;">
+                SPORTS
+            </text>
+        </a>    
+        <a href="product-page.html">
+            <rect x="40%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <rect x="40%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <text x=47% y="25%" style="text-anchor: middle;">
+                STORE
+            </text>
+        </a>
+        <a href="gallery.html">
+            <rect x="55%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <rect x="55%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <text x=62% y="25%" style="text-anchor: middle;">
+                GALLERY
+            </text>
+        </a>
+        <a href="quiz.html">
+            <rect x="70%" y="15%" width="140" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <rect x="70%" y="15%" width="140" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <text x=75% y="25%" style="text-anchor: middle;">
+                QUIZ
+            </text>
+        </a>
+        <a href="about%20page.html">
+            <rect x="82%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <rect x="82%" y="15%" width="180" height="90" rx="20" ry="20" class="rectangles"></rect>
+            <text x=89% y="25%" style="text-anchor: middle;">
+                ABOUT US
+            </text>
+        </a>
+        <a href="waterPolo-page.html">
+            <rect x="24%" y="35%" width="210" height="70" rx="20" ry="20" class="rectangles"></rect>
+            <text x="32%" y="43%" style="text-anchor: middle;">
+                WATER POLO
+            </text>
+        </a>
+        <a href="swimming-page.html">
+            <rect x="24%" y="50%" width="210" height="70" rx="20" ry="20" class="rectangles"></rect>
+            <text x="32%" y="58%" style="text-anchor: middle;">
+                SWIMMING
+            </text>
+        </a>
+        <a href="rowing.html">
+            <rect x="24%" y="66%" width="210" height="70" rx="20" ry="20" class="rectangles"></rect>
+            <text x="32%" y="75%" style="text-anchor: middle;">
+                ROWING
+            </text>
+        </a>
+        <a href="surfing.html">
+            <rect x="24%" y="82%" width="210" height="70" rx="20" ry="20" class="rectangles"></rect>
+            <text x="32%" y="90%" style="text-anchor: middle;">
+                SURFING
+            </text>
+        </a>
+    </svg>
+</div>
+
+<div class="footer-container">
+    <div class="subscribe">
+        <div class="subscribe-text subscribe-item">Subscribe to our Mailing List</div>
+        <div class="subscribe-item">
+            <input type="email" id="subscribeEmail" placeholder="Enter Your Email"/>
+            <button><label for="subscribeEmail">SUBSCRIBE</label></button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="hr"></div>
+        <div>
+            <div>Phone Number</div>
+            <a href="tel:+94-77-530-0669">+94-77-111-2222</a>
+        </div>
+        <div>
+            <div>Address</div>
+            <div>Dolphin Swimming Club, Park Lane, colombo 3.</div>
+        </div>
+        <div>
+            <div>Email</div>
+            <a href="mailto:test@test.com">test@test.com</a>
+        </div>
+        <div class="hr"></div>
+        <div>
+            <div>Editors</div>
+            <a href="editor-2018411.html">Charindu Liyanage</a>,
+            <a href="editor-2018534.html">Tiran Hettiarachchi</a>
+        </div>
+        <div>
+            <div>Created on</div>
+            <div>24 / 03 / 2020</div>
+        </div>
+        <a href="sitemap.html">Site Map</a>
+        <div class="hr"></div>
+    </div>
+</div>
+
+
+<div class="modal-btn-container">
+    <button class="comments-modal-btn">Rate & Comment</button>
+</div>
+
+<div class="comments-modal-bg">
+    <div class="comments-modal-container">
+        <div class="comments-modal">
+            <div id="comments-modal-header">Rate & Comment</div>
+            <!--<label for="name">Name :</label>-->
+            <fieldset class="input-fields">
+                <legend><label for="name">Name</label></legend>
+                <input type="text" id="name" placeholder="Name">
+            </fieldset>
+            <!--<label for="email">Email :</label>-->
+            <fieldset class="input-fields">
+                <legend><label for="email">Email</label></legend>
+                <input type="text" id="email" placeholder="Email">
+            </fieldset>
+            <!--<label for="comment">Comment :</label>-->
+            <fieldset class="input-fields">
+                <legend><label for="comment">Comments</label></legend>
+                <textarea id="comment" placeholder="Enter you comment here."></textarea>
+            </fieldset>
+            <!--<lable for="star">Rate Us</lable>-->
+            <div class="rating-container">
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="5 stars"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="4 stars"></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="3 stars"></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="2 stars"></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="1 star"></label>
+                </div>
+            </div>
+            <button id="submitBtn">Submit</button>
+            <span class="comments-modal-close">X</span>
+            <div class="made_by">Made by <a href="#">Charindu Liyanage</a></div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/script-waterPolo.js"></script>
+<script src="../js/script-comments.js"></script>
+
+</body>
+</html>
