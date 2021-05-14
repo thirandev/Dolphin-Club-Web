@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CourseWork</title>
+    <link rel="stylesheet" href="../css/style-product-page.css">
+    <link rel="stylesheet" href="../css/style-modal.css">
+    <link rel="stylesheet" href="../css/style-buying-page.css">
+    <link rel="stylesheet" href="../css/style-navBar.css">
+    <link rel="stylesheet" href="../css/style-footer.css">
+</head>
+<body>
+<div class="navBar">
+    <div class="logo" onclick="document.location = 'index.html';">
+        <img src="../img/dolphin-logo.png" alt="Logo Image">
+    </div>
+    <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <div class="drop-button">Sports
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+                <a href="../waterPolo-page.html"><img src="../img/water-polo-logo.png" alt="Water Polo Logo">Water Polo</a>
+                <a href="../swimming-page.html"><img src="../img/swimming-logo.png" alt="Swimming Logo">Swimming</a>
+                <a href="../rowing.html"><img src="../img/rowing-logo.png" alt="Rowing Logo">Rowing</a>
+                <a href="../surfing.html"><img src="../img/surfer-logo.png" alt="Surfing Logo">Surfing</a>
+            </div>
+        </div>
+        <a href="../product-page.html" style="background-color: #5780ad;">Store</a>
+        <a href="../gallery.html">Gallery</a>
+        <a href="../quiz.html">Quiz</a>
+        <a href="../about%20page.html">About Us</a>
+    </div>
+</div>
+<main>
+    <div class="flex-container"><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div id="left">
+            <h2 id="itemTitle">Premium Membership - Monthly</h2><br/>
+            <h3 id="itemPrice">Rs.4000</h3>
+            <img id="buying_page_image" src="../img/logo.jpg" alt="product">
+        </div>
+
+        <div id="right">
+            <form>
+                <fieldset>
+                    <legend id="legend"></legend>
+                    <div class="form">
+                        <div id="form-left">
+                            <label>Name : </label><br>
+                            <label>Address : </label><br>
+                            <label>E-mail : </label><br><br><br><br>
+                            <label>Any Comments : </label><br><br><br><br><br><br><br>
+                            <label>Number of items :  </label><br><br><br><br><br>
+
+                            <label><input type="checkbox" name="agree" value="terms"> Agree to terms and conditions<br><br></label>
+                            <span class="a"><input class ="purchasebutton" type="submit" value="Buy" onclick="purchaseItem()"><br><br></span>
+                            <span class="b"><input class ="purchasebutton" type="reset" value="Cancel"><br><br></span>
+                        </div>
+                        <div id="form-right">
+                            <label><input id="InputName" type = "text" placeholder="Name"><br></label>
+                            <label><input type = "text" placeholder="Address"><br></label>
+                            <label><input type = "email" placeholder="Email"><br></label><br>
+                            <label><textarea cols="40" rows="8"></textarea><br><br></label><br>
+                            <label><select id=numOfItems name="select">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select><br><br><br><br><br></label>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="../js/student1-app.js"></script>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
